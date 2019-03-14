@@ -1,8 +1,30 @@
-/*
-通用样式
-*/
+/*******************通用样式*******************/
 body {
-    font-size: 13px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #000;
 }
+/*******************通用样式*******************/
+
+
+/*******************头部样式*******************/
+#lk_header{
+
+}
+#lk_header .top-bar{
+    height: 40px;
+    line-height: 39px;//导航条居中
+    border-bottom: 1px solid #e0e0e0;
+}
+#lk_header .top-bar .top-bar-1{
+    background-color: red;
+}
+#lk_header .top-bar .top-bar-2{
+    background-color: green;
+}
+#lk_header .top-bar .top-bar-3{
+    background-color: blue;
+}
+#lk_header .top-bar .top-bar-4{
+    background-color: orange;
+}
+/*******************头部样式*******************/
