@@ -16,12 +16,12 @@
 
 <!--头部-->
 <header id="lk_header">
-    <!--上部分-->
-    <div class="top-bar hidden-sm hidden-xs">
+    <!--上部分顶部栏-->
+    <div class="top-bar hidden-sm hidden-xs text-center text-muted">
         <div class="container">
             <div class="row">
                 <div class="top-bar-1 col-md-2">
-                    <a href="">
+                    <a href="" class="text-muted">
                         <i class="icon-phone"></i>
                         <span>关注微信号</span>
                         <span class="caret"></span>
@@ -33,16 +33,46 @@
                     <span>8888-555-6666（服务时间：9:00-21:00）</span>
                 </div>
                 <div class="top-bar-3 col-md-2">
-                    <a href="">校企合作</a>
-                    <a href="">培训师</a>
+                    <a href="" class="text-muted">校企合作</a>
+                    <a href="" class="text-muted">培训师</a>
                 </div>
                 <div class="top-bar-4 col-md-3">
-                    <a class="btn btn-default" href="#" role="button">免费注册</a>
-                    <a class="btn btn-default" href="#" role="button">立即登录</a>
+                    <a class="btn btn-register btn-sm" href="#" role="button">免费注册</a>
+                    <a href="#" role="button" class="text-muted" style="margin-left: 10px;">立即登录</a>
                 </div>
             </div>
         </div>
     </div>
+    <!--下部分导航条-->
+    <nav class="navbar navbar-default navbar-static-top navbar_lk">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#lk_nav" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="img/lk_logo_sm.png" alt="撩课学院" width="180">
+                </a>
+            </div>
+            <!--此处id与上述data-target对应-->
+            <div class="collapse navbar-collapse" id="lk_nav">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="javascript:">关于我们 </a></li>
+                    <li><a href="javascript:">课程介绍</a></li>
+                    <li><a href="javascript:">热门课程</a></li>
+                    <li><a href="javascript:">名师授课</a></li>
+                    <li><a href="javascript:">课堂互动</a></li>
+                    <li><a href="javascript:">联系我们</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right hidden-sm hidden-xs">
+                    <li><a href="#">个人中心</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
 </header>
 <!--/头部-->
 

@@ -3,6 +3,67 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #000;
 }
+/*按钮自定义颜色*/
+.btn-register {
+    color: #FFFFFF;
+    background-color: #0AB4F7;
+    border-color: #F4F7F7;
+}
+
+.btn-register:hover,
+.btn-register:focus,
+.btn-register:active,
+.btn-register.active,
+.open .dropdown-toggle.btn-register {
+    color: #FFFFFF;
+    background-color: #086DF2;
+    border-color: #F4F7F7;
+}
+
+.btn-register:active,
+.btn-register.active,
+.open .dropdown-toggle.btn-register {
+    background-image: none;
+}
+
+.btn-register.disabled,
+.btn-register[disabled],
+fieldset[disabled] .btn-register,
+.btn-register.disabled:hover,
+.btn-register[disabled]:hover,
+fieldset[disabled] .btn-register:hover,
+.btn-register.disabled:focus,
+.btn-register[disabled]:focus,
+fieldset[disabled] .btn-register:focus,
+.btn-register.disabled:active,
+.btn-register[disabled]:active,
+fieldset[disabled] .btn-register:active,
+.btn-register.disabled.active,
+.btn-register[disabled].active,
+fieldset[disabled] .btn-register.active {
+    background-color: #0AB4F7;
+    border-color: #F4F7F7;
+}
+
+.btn-register .badge {
+    color: #0AB4F7;
+    background-color: #FFFFFF;
+}
+/*嵌入字体*/
+@font-face {
+    font-family: lk;
+    src: url('../fonts/lk.eot') format('embedded-opentype'),
+    url('../fonts/lk.svg') format('svg'),
+    url('../fonts/lk.ttf') format('truetype'),
+    url('../fonts/lk.woff') format('woff');
+}
+/*适配整个页面字体*/
+[class^="icon-"],
+[class*=" icon-"]{
+    font-family: lk;
+    font-style: normal;
+}
+
 /*******************通用样式*******************/
 
 
@@ -10,14 +71,61 @@ body {
 #lk_header{
 
 }
+/*line-height居中*/
 #lk_header .top-bar{
     height: 40px;
-    line-height: 39px;//导航条居中
+    line-height: 39px;
     border-bottom: 1px solid #e0e0e0;
 }
 /*后代选择器选定234，并在左侧加border*/
 #lk_header .top-bar .container .row>div+div{
     border-left: 1px solid #e0e0e0;
 }
+/*子绝父相来定位以及隐藏显示图片*/
+#lk_header .top-bar .container .row .top-bar-1 a{
+    position: relative;
+}
+#lk_header .top-bar .container .row .top-bar-1 a img{
+    display: none;
+    position: absolute;
+    left: 50%;
+    margin-left: -65px;
+    margin-top: -10px;
 
+    z-index: 9999;
+}
+#lk_header .top-bar .container .row .top-bar-1 a:hover img{
+    display: block;
+}
+
+/*字体图标*/
+.icon-phone::before{
+    content: '\e958';
+    font-size: 13px;
+}
+
+.icon-tel::before{
+    content: '\e942';
+    font-size: 13px;
+}
+/*navbar的样式定制*/
+#lk_header .navbar_lk{
+    background-color: #fff;
+}
+#lk_header .navbar_lk .navbar-brand{
+    height:70px;
+    padding: 10px 15px;
+}
+#lk_header .navbar_lk .navbar-nav a{
+    height: 70px;
+    line-height: 40px;
+}
+#lk_header .navbar_lk .navbar-nav li.active a,
+#lk_header .navbar_lk .navbar-nav li a:hover{
+    background-color: transparent;
+    border-bottom: 2px solid #0AB4F7;
+}
+#lk_header .navbar-lk .navbar-toggle {
+    margin-top: 18px;
+}
 /*******************头部样式*******************/
