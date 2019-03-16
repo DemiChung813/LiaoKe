@@ -111,6 +111,7 @@ fieldset[disabled] .btn-register.active {
 /*navbar的样式定制*/
 #lk_header .navbar_lk{
     background-color: #fff;
+    margin-bottom: 0;
 }
 #lk_header .navbar_lk .navbar-brand{
     height:70px;
