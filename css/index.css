@@ -15,16 +15,9 @@ body {
     line-height: 39px;//导航条居中
     border-bottom: 1px solid #e0e0e0;
 }
-#lk_header .top-bar .top-bar-1{
-    background-color: red;
+/*后代选择器选定234，并在左侧加border*/
+#lk_header .top-bar .container .row>div+div{
+    border-left: 1px solid #e0e0e0;
 }
-#lk_header .top-bar .top-bar-2{
-    background-color: green;
-}
-#lk_header .top-bar .top-bar-3{
-    background-color: blue;
-}
-#lk_header .top-bar .top-bar-4{
-    background-color: orange;
-}
+
 /*******************头部样式*******************/
