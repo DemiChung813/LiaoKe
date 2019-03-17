@@ -148,3 +148,20 @@ fieldset[disabled] .btn-register.active {
     }
 }
 /*******************轮播图样式*******************/
+
+/*******************关于我们的样式*******************/
+#lk_about{
+    padding: 20px 0;
+}
+#lk_about .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+}
+#lk_about .row p{
+    line-height: 29px;
+    font-size: 15px;
+}
+/*******************关于我们的样式*******************/
