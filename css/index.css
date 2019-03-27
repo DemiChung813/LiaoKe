@@ -190,6 +190,21 @@ fieldset[disabled] .btn-register.active {
 }
 /*选项卡文字样式*/
 #lk_product .pd-left{
-
+    padding: 40px 0;
+}
+#pd_one_1{
+    margin: 15px 0;
+}
+#pd_one_2{
+    background-color: transparent;
+}
+#pd_one_4{
+    margin: 15px 0;
+}
+#lk_product #pd_two_1{
+    padding: 100px 0;
+}
+#lk_product #pd_two_1 h1{
+    margin-bottom: 15px;
 }
 /*******************产品特色样式*******************/
