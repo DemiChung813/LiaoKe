@@ -77,4 +77,7 @@ $(function () {
 
 
     $(window).trigger("resize");
+
+    //2.尾部图片提示
+    $('[data-toggle="tooltip"]').tooltip()
 });

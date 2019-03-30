@@ -38,7 +38,7 @@
                 </div>
                 <div class="top-bar-4 col-md-3">
                     <a class="btn btn-register btn-sm" href="#" role="button">免费注册</a>
-                    <a href="#" role="button" class="text-muted" style="margin-left: 10px;">立即登录</a>
+                    <a href="#" role="button" class="text-muted" style="margin-left: 10px;" data-toggle="modal" data-target="#lk_login">立即登录</a>
                 </div>
             </div>
         </div>
@@ -74,7 +74,6 @@
         </div><!-- /.container-fluid -->
     </nav>
 </header>
-<!--/头部-->
 
 <!--轮播图-->
 <section id="lk_carousel" class="carousel slide" data-ride="carousel">
@@ -107,7 +106,6 @@
             <span class="sr-only">Next</span>
         </a>
 </section>
-<!--/轮播图-->
 
 <!--关于我们-->
 <section id="lk_about" class="hidden-sm hidden-xs">
@@ -132,7 +130,6 @@
         </div>
     </div>
 </section>
-<!--/关于我们-->
 
 <!--产品特色-->
 <section id="lk_product">
@@ -244,19 +241,207 @@
         </div>
     </div>
 </section>
-<!--/产品特色-->
 
 <!--热门课程-->
-<section id="lk_hot">热门课程</section>
-<!--/热门课程-->
+<section id="lk_hot">
+    <!--标题-->
+    <div class="title text-center">
+        <h1><strong>热门课程</strong></h1>
+        <img src="img/star.png" alt="" class="img-responsive">
+    </div>
+    <!--内容-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 lesson">
+                <div class="media">
+                    <div class="media-left">
+                        <img src="img/lnj.png" alt="" class="media-object img-responsive img-circle img-thumbnail" width="100">
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">
+                            <span class="text-danger">【热】</span>从零玩转HTML5+跨平台
+                        </h4>
+                        <p class="text-muted" style="margin-top: 10px;">
+                            XXX老师带你从零基础入门大前端开发, So Easy, Too Happy!
+                        </p>
+                    </div>
+                    <div class="media-right text-danger">
+                        206节课
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 lesson">
+                <div class="media">
+                    <div class="media-left">
+                        <img width="100" class="media-object img-circle img-thumbnail" src="img/yjh.png" alt="">
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">
+                            <span class="text-danger">【热】</span>
+                            从零玩转JavaScript+项目实战
+                        </h4>
+                        <p class="text-muted" style="margin-top: 10px;">
+                            XXX老师带你轻松解读JavaScript的前世今生, 全程案例驱动讲解!
+                        </p>
+                    </div>
+                    <div class="media-right text-danger">
+                        256节课
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 lesson">
+                <div class="media">
+                    <div class="media-left">
+                        <img width="100" class="media-object img-circle img-thumbnail" src="img/wzs.png" alt="">
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">
+                            <span class="text-danger">【热】</span>
+                            从零玩转人工智能+Python系列
+                        </h4>
+                        <p class="text-muted" style="margin-top: 10px;">
+                            XXX老师倾情打造, 各种奇淫技巧层出不穷, 赶紧到碗里来!
+                        </p>
+                    </div>
+                    <div class="media-right text-danger">
+                        600+节课
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 lesson">
+                <div class="media">
+                    <div class="media-left">
+                        <img width="100" class="media-object img-circle img-thumbnail" src="img/yjh.png" alt="">
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">
+                            <span class="text-danger">【热】</span>
+                            从零玩转Vue+Node全系列
+                        </h4>
+                        <p class="text-muted" style="margin-top: 10px;">
+                            打通前后端, 真实企业项目实操, 内容涉及前端、后端、微信端, 让你一次学个够!
+                        </p>
+                    </div>
+                    <div class="media-right text-danger">
+                        400+节课
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 lesson">
+                <div class="media">
+                    <div class="media-left">
+                        <img width="100" class="media-object img-circle img-thumbnail" src="img/gxq.jpg" alt="">
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">
+                            <span class="text-danger">【热】</span>
+                            从零玩转JavaEE全系列
+                        </h4>
+                        <p class="text-muted" style="margin-top: 10px;">
+                            XXX老师全程高能, 只为成就更好的你! 学Java, 就选"高薪墙"!
+                        </p>
+                    </div>
+                    <div class="media-right text-danger">
+                        700+节课
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 lesson">
+                <div class="media">
+                    <div class="media-left">
+                        <img width="100" class="media-object img-circle img-thumbnail" src="img/lnj.png" alt="">
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">
+                            <span class="text-danger">【热】</span>
+                            从零玩转jQuery+ajax系列
+                        </h4>
+                        <p class="text-muted" style="margin-top: 10px;">
+                            这里有用JQ做的小游戏, 也有JQ做的QQ音乐, 还有...., 你要学的, 江哥这里都有!
+                        </p>
+                    </div>
+                    <div class="media-right text-danger">
+                        200+节课
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!--友情链接-->
-<section id="lk_link">友情链接</section>
-<!--/友情链接-->
+<section id="lk_link">
+    <!--标题-->
+    <div class="title text-center">
+        <h1><strong>友情链接</strong></h1>
+        <img src="img/star.png" alt="" class="img-responsive">
+    </div>
+    <!--内容-->
+    <ul class="logos">
+        <li><a href=""><img src="img/ibm-logo.png" width="100" alt=""></a></li>
+        <li><a href=""><img src="img/facebook-logo.png" width="50" alt=""></a></li>
+        <li><a href=""><img src="img/google-logo.png" width="50" alt=""></a></li>
+        <li><a href=""><img src="img/airbnb-logo.png" width="100" alt=""></a></li>
+        <li><a href=""><img src="img/swift-logo.png" width="50" alt=""></a></li>
+        <li><a href=""><img src="img/paypal-logo.png" width="100" alt=""></a></li>
+        <li><a href=""><img src="img/walmart-logo.png" width="100" alt=""></a></li>
+    </ul>
+</section>
 
 <!--尾部-->
-<footer id="lk_footer">尾部</footer>
-<!--/尾部-->
+<footer id="lk_footer">
+    <div class="container">
+        <div class="row" style="padding-top: 20px;">
+            <div class="col-md-3 col-md-offset-1 one">
+                <div class="row">
+                    <ul class="col-md-6">
+                        <li><a href="">关于我们</a></li>
+                        <li><a href="">课程介绍</a></li>
+                        <li><a href="">热门课程</a></li>
+                    </ul>
+                    <ul class="col-md-6">
+                        <li><a href="">名师授课</a></li>
+                        <li><a href="">课堂互动</a></li>
+                        <li><a href="">联系我们</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3 two">
+                <h5>公司地址: 武汉市武昌区才林街8号</h5>
+                <h5>联系电话: 13477093903</h5>
+                <h5>地址邮箱：543180353@qq.com</h5>
+            </div>
+            <div class="col-md-3 three">
+                <h5>联系我们：</h5>
+                <a href="">
+                    <img src="img/weixin-h.png" alt="" width="50" data-toggle="tooltip" data-placement="bottom" title="关注微信">
+                    <img src="img/xinlang-h.png" alt="" width="50" data-toggle="tooltip" data-placement="bottom" title="关注微博">
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--登录-->
+<div class="modal fade" id="lk_login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">登录</h4>
+            </div>
+            <div class="modal-body">
+                <input type="text" placeholder="请输入手机号码">
+                <input type="password" placeholder="请输入密码">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                <button type="button" class="btn btn-primary">登录</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
 <script src="lib/jquery-3.3.1/jquery-3.3.1.js"></script>
