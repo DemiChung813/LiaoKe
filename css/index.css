@@ -240,6 +240,20 @@ fieldset[disabled] .btn-register.active {
 }
 /*******************友情链接样式*******************/
 
+
+/*******************移动端尾部样式*******************/
+#wap_footer{
+    background: #333333;
+}
+.copyright-text{
+    color: #ccc;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+/*******************移动端尾部样式*******************/
+
+
 /*******************尾部样式*******************/
 #lk_footer{
     width: 100%;
